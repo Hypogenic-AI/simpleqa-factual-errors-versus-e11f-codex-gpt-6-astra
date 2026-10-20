@@ -1,0 +1,7 @@
+{
+  "analysis_reruns": 2,
+  "byte_identical_analysis_sha256": "988ddec2e3a19696175526398b06917264b99fe3c5d10727bf0817d62713e212",
+  "all_original_numerical_results_unchanged": true,
+  "changes": "Added explicit preregistered measurement-gate metadata and suppression reasons only; no grades, thresholds or estimates changed.",
+  "inference_reruns": 0
+}

@@ -1,0 +1,34 @@
+{
+  "model": "moonlight-16b-a3b-instruct",
+  "sampling": {
+    "temperature": 0.6,
+    "top_p": 1.0,
+    "top_k": -1,
+    "repetition_penalty": 1.0
+  },
+  "dtype": "bfloat16",
+  "engine": "vLLM offline step API",
+  "vllm_version": "0.11.0",
+  "max_num_seqs": 64,
+  "tensor_parallel_size": 1,
+  "max_model_len": 8192,
+  "memory_utilization": 0.5,
+  "catalog_memory_utilization": 0.7,
+  "reasoning_boundary_ids": [],
+  "enforce_eager": true,
+  "prefix_caching": true,
+  "chat_template": "{%- for message in messages -%}{%- if loop.first and messages[0]['role'] != 'system' -%}<|im_system|>system<|im_middle|>You are a helpful assistant<|im_end|>{%- endif -%}{%- if message['role'] == 'system' -%}<|im_system|>{%- endif -%}{%- if message['role'] == 'user' -%}<|im_user|>{%- endif -%}{%- if message['role'] == 'assistant' -%}<|im_assistant|>{%- endif -%}{{ message['role'] }}<|im_middle|>{{message['content']}}<|im_end|>{%- endfor -%}{%- if add_generation_prompt -%}<|im_assistant|>assistant<|im_middle|>{%- endif -%}",
+  "example_render": "<|im_system|>system<|im_middle|>You are a helpful assistant<|im_end|><|im_user|>user<|im_middle|>What is 2 + 2?<|im_end|><|im_assistant|>assistant<|im_middle|>",
+  "final_budget": 256,
+  "total_cap": 4096,
+  "generation_config": {
+    "max_length": 8192,
+    "eos_token_id": [
+      163586
+    ]
+  },
+  "scheduling": "continuous_max_64",
+  "code_sha256": "139ee7961876dd2699969a1ef9f6d1985769b9fe361f938620eba5dd801f4a4a",
+  "freeze_time": 1792496359.084529,
+  "load_seconds": 185.560124874115
+}

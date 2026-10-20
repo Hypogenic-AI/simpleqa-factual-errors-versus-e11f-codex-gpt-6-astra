@@ -1,0 +1,45 @@
+[
+  {
+    "stage": "setup",
+    "event": "Initial uv install selected incompatible modern Transformers / Inspect Evals constraints; resolved before inference by pinning Transformers4.57.1 and Inspect Evals0.3.106."
+  },
+  {
+    "stage": "fixture",
+    "event": "First fixture process stopped before inference while dependency adjustment was in progress; no output retained."
+  },
+  {
+    "stage": "fixture",
+    "event": "Second fixture process stopped during imports before LLM load after unrelated service reserved ~37GB on GPU0; latest runner lowers reservations and performs fixture within same process before main."
+  },
+  {
+    "stage": "azure",
+    "event": "Campaign cap found, authoritative spend ledger unavailable. No paid calls; dual-judge checkpoint incomplete."
+  },
+  {
+    "stage": "execution",
+    "event": "Operational deadline supervisor added after Qwen collection started: no new DeepSeek batches after 11:45:28 UTC, Moonlight after 11:51:28, local judge after 11:57:28 on 2026-10-20. This reserves documentation time within the one-hour session; no item resampling or factuality-dependent stop."
+  },
+  {
+    "stage": "pre_DeepSeek",
+    "time_utc": "2026-10-20T11:19:04Z",
+    "event": "Continuous scheduling for DeepSeek/Moonlight, max_num_seqs remains64, to avoid batch barriers dominated by longest reasoning trace. Qwen retains original batching. Original source snapshot saved; no statistical/subject-prompt change. Deadline now aborts in-flight and queued requests, recording absent cell keys.",
+    "new_code_sha256": "139ee7961876dd2699969a1ef9f6d1985769b9fe361f938620eba5dd801f4a4a"
+  },
+  {
+    "stage": "before_any_grading",
+    "event": "Completed cache-key identity with pinned judge revision and all fixed sampling parameters; subject generation functions unchanged. Original protocol module archived for pre-run hash traceability.",
+    "time": 1792495298.628702,
+    "protocol_sha256": "cbc6f5b5f43a14f49ea7e2b0ae51ddcf2884cab01ae99ce27af8d80c1909d60f"
+  },
+  {
+    "stage": "pre_grading_metadata_validation",
+    "event": "Correct-label false-positive-rate sample-size metadata corrected to 100 true-B/C controls; its estimator/bootstrap unchanged. Pre-run analyzer archived. No grade collected or inspected before this correction.",
+    "analyzer_sha256": "b4b7ab39d7690044ca7827bfe9920350355db213e5385845bdbdd48ba759b42b",
+    "time": 1792495375.8473482
+  },
+  {
+    "stage": "posthoc_export",
+    "event": "Interrupted replay export to redirect Inspect data/cache directories into workspace and omit duplicate raw traces from replay metadata. Raw generations and scores unchanged. Owned default-cache artifacts and incomplete replay log preserved under interrupted_inspect_cache. No model inference rerun.",
+    "time": 1792496917.9809535
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "2411.04368",
+    "path": "papers/2411.04368_simpleqa.pdf",
+    "url": "https://arxiv.org/pdf/2411.04368",
+    "bytes": 407327,
+    "sha256": "cca3809270242e8f280a4edf2141800d2580c95a0772b654b805a7152f7227ff"
+  },
+  {
+    "id": "2506.09038",
+    "path": "papers/2506.09038_abstentionbench.pdf",
+    "url": "https://arxiv.org/pdf/2506.09038",
+    "bytes": 1356699,
+    "sha256": "be0c4810189c73bb78d4f1301f900c9796bb601573e365d7e48ba332a0f306b6"
+  },
+  {
+    "id": "2311.09677",
+    "path": "papers/2311.09677_r_tuning.pdf",
+    "url": "https://arxiv.org/pdf/2311.09677",
+    "bytes": 8630490,
+    "sha256": "f236baf91910609938378d7544ba98a1603a1483e0ca3903d342f7757741652c"
+  },
+  {
+    "id": "2207.05221",
+    "path": "papers/2207.05221_know_what_they_know.pdf",
+    "url": "https://arxiv.org/pdf/2207.05221",
+    "bytes": 2616253,
+    "sha256": "1d861f7732f65769703cb2731dc085f3c9e69771b1b6196d074646d1473c3fbf"
+  },
+  {
+    "id": "2509.07968",
+    "path": "papers/2509.07968_simpleqa_verified.pdf",
+    "url": "https://arxiv.org/pdf/2509.07968",
+    "bytes": 815212,
+    "sha256": "df3bf66ebdba21e01dec4fc760d53ca8944ed2010bf1a15e9e57b5a404ed8686"
+  }
+]

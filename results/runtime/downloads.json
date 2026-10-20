@@ -1,0 +1,392 @@
+[
+  {
+    "model": "qwen3-8b",
+    "file": "config.json",
+    "bytes": 728,
+    "seconds": 0.5901310443878174
+  },
+  {
+    "model": "qwen3-8b",
+    "file": "generation_config.json",
+    "bytes": 239,
+    "seconds": 0.4455077648162842
+  },
+  {
+    "model": "qwen3-8b",
+    "file": "merges.txt",
+    "bytes": 1671853,
+    "seconds": 0.526984691619873
+  },
+  {
+    "model": "qwen3-8b",
+    "file": "model-00001-of-00005.safetensors",
+    "bytes": 3996250744,
+    "seconds": 43.15003848075867
+  },
+  {
+    "model": "qwen3-8b",
+    "file": "model-00002-of-00005.safetensors",
+    "bytes": 3993160032,
+    "seconds": 43.09796714782715
+  },
+  {
+    "model": "qwen3-8b",
+    "file": "model-00003-of-00005.safetensors",
+    "bytes": 3959604768,
+    "seconds": 43.151485204696655
+  },
+  {
+    "model": "qwen3-8b",
+    "file": "model-00004-of-00005.safetensors",
+    "bytes": 3187841392,
+    "seconds": 43.103155851364136
+  },
+  {
+    "model": "qwen3-8b",
+    "file": "model-00005-of-00005.safetensors",
+    "bytes": 1244659840,
+    "seconds": 43.08037734031677
+  },
+  {
+    "model": "qwen3-8b",
+    "file": "model.safetensors.index.json",
+    "bytes": 32878,
+    "seconds": 0.11933588981628418
+  },
+  {
+    "model": "qwen3-8b",
+    "file": "tokenizer.json",
+    "bytes": 11422654,
+    "seconds": 0.7162213325500488
+  },
+  {
+    "model": "qwen3-8b",
+    "file": "tokenizer_config.json",
+    "bytes": 9732,
+    "seconds": 0.30936169624328613
+  },
+  {
+    "model": "qwen3-8b",
+    "file": "vocab.json",
+    "bytes": 2776833,
+    "seconds": 0.36599016189575195
+  },
+  {
+    "model": "deepseek-r1-distill-llama-8b",
+    "file": "config.json",
+    "bytes": 826,
+    "seconds": 0.12668228149414062
+  },
+  {
+    "model": "deepseek-r1-distill-llama-8b",
+    "file": "generation_config.json",
+    "bytes": 181,
+    "seconds": 0.22649240493774414
+  },
+  {
+    "model": "deepseek-r1-distill-llama-8b",
+    "file": "model-00001-of-000002.safetensors",
+    "bytes": 8667826246,
+    "seconds": 60.50874328613281
+  },
+  {
+    "model": "deepseek-r1-distill-llama-8b",
+    "file": "model-00002-of-000002.safetensors",
+    "bytes": 7392730108,
+    "seconds": 53.08306121826172
+  },
+  {
+    "model": "deepseek-r1-distill-llama-8b",
+    "file": "model.safetensors.index.json",
+    "bytes": 24240,
+    "seconds": 0.12371015548706055
+  },
+  {
+    "model": "deepseek-r1-distill-llama-8b",
+    "file": "tokenizer.json",
+    "bytes": 9084480,
+    "seconds": 0.3856666088104248
+  },
+  {
+    "model": "deepseek-r1-distill-llama-8b",
+    "file": "tokenizer_config.json",
+    "bytes": 3071,
+    "seconds": 0.1610701084136963
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "config.json",
+    "bytes": 1375,
+    "seconds": 0.15108776092529297
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "configuration_deepseek.py",
+    "bytes": 10652,
+    "seconds": 0.14885401725769043
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "generation_config.json",
+    "bytes": 61,
+    "seconds": 0.21922564506530762
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-1-of-27.safetensors",
+    "bytes": 837036512,
+    "seconds": 40.35944175720215
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-10-of-27.safetensors",
+    "bytes": 1169721008,
+    "seconds": 11.12010931968689
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-11-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 12.96521520614624
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-12-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 11.701448917388916
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-13-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 12.331115245819092
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-14-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 12.33123254776001
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-15-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 11.701243162155151
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-16-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 18.32190227508545
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-17-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 18.01511788368225
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-18-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 17.69261646270752
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-19-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 7.089787483215332
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-2-of-27.safetensors",
+    "bytes": 1169721008,
+    "seconds": 17.19965434074402
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-20-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 16.68926763534546
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-21-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 16.173128128051758
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-22-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 11.312301874160767
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-23-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 10.598630666732788
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-24-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 24.863286018371582
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-25-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 25.16215181350708
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-26-of-27.safetensors",
+    "bytes": 1169721216,
+    "seconds": 25.484853744506836
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-27-of-27.safetensors",
+    "bytes": 1840814416,
+    "seconds": 26.905765295028687
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-3-of-27.safetensors",
+    "bytes": 1169721008,
+    "seconds": 19.321533679962158
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-4-of-27.safetensors",
+    "bytes": 1169721008,
+    "seconds": 23.838064193725586
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-5-of-27.safetensors",
+    "bytes": 1169721008,
+    "seconds": 25.296308279037476
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-6-of-27.safetensors",
+    "bytes": 1169721008,
+    "seconds": 23.707370042800903
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-7-of-27.safetensors",
+    "bytes": 1169721008,
+    "seconds": 10.831739664077759
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-8-of-27.safetensors",
+    "bytes": 1169721008,
+    "seconds": 8.140454769134521
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model-9-of-27.safetensors",
+    "bytes": 1169721008,
+    "seconds": 8.137030839920044
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "model.safetensors.index.json",
+    "bytes": 445693,
+    "seconds": 0.3263416290283203
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "modeling_deepseek.py",
+    "bytes": 75864,
+    "seconds": 0.8309769630432129
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "tiktoken.model",
+    "bytes": 2795286,
+    "seconds": 0.8102786540985107
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "tokenization_moonshot.py",
+    "bytes": 11129,
+    "seconds": 0.41938090324401855
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "file": "tokenizer_config.json",
+    "bytes": 2659,
+    "seconds": 0.1909341812133789
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "file": "config.json",
+    "bytes": 663,
+    "seconds": 0.11603474617004395
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "file": "generation_config.json",
+    "bytes": 243,
+    "seconds": 0.11943721771240234
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "file": "merges.txt",
+    "bytes": 1671839,
+    "seconds": 0.13943004608154297
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "file": "model-00001-of-00004.safetensors",
+    "bytes": 3945441440,
+    "seconds": 17.397987842559814
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "file": "model-00002-of-00004.safetensors",
+    "bytes": 3864726352,
+    "seconds": 16.957231760025024
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "file": "model-00003-of-00004.safetensors",
+    "bytes": 3864726424,
+    "seconds": 17.16261911392212
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "file": "model-00004-of-00004.safetensors",
+    "bytes": 3556377672,
+    "seconds": 16.93058967590332
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "file": "model.safetensors.index.json",
+    "bytes": 27752,
+    "seconds": 0.7439959049224854
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "file": "tokenizer.json",
+    "bytes": 7031645,
+    "seconds": 0.23618149757385254
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "file": "tokenizer_config.json",
+    "bytes": 7305,
+    "seconds": 0.07871389389038086
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "file": "vocab.json",
+    "bytes": 2776833,
+    "seconds": 0.13419198989868164
+  }
+]

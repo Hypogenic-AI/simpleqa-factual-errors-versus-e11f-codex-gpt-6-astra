@@ -1,0 +1,17 @@
+{
+  "text": "2 + 2 equals 4.",
+  "token_ids": [
+    17,
+    715,
+    220,
+    17,
+    28542,
+    220,
+    19,
+    13,
+    163586
+  ],
+  "model": "moonlight-16b-a3b-instruct",
+  "native_boundary_ids": [],
+  "fixture_only": true
+}

@@ -1,0 +1,11 @@
+Resource finding phase completed successfully.
+Timestamp: 2026-10-20T11:01:15.624255+00:00
+Papers downloaded: 5
+Datasets downloaded: 1
+Repositories cloned: 2
+Model metadata snapshots: 4
+Main questions: 400
+Calibration questions: 50
+Synthetic calibration controls: 150
+Validation: artifacts/resource_finder/final_validation.json
+Experiments not yet run.

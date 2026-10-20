@@ -1,0 +1,6 @@
+{
+  "baseline_user": "{question}",
+  "intervention_user": "{question}\n\nIf you are uncertain, answer exactly I do not know.",
+  "explicit_system_message": null,
+  "source": "Pinned simple-evals sends raw question; no additional short-answer sentence is present. Preserve this exact standard baseline."
+}

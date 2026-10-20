@@ -1,0 +1,19 @@
+{
+  "n_source": 4326,
+  "n_selected": 450,
+  "n_calibration": 50,
+  "n_main": 400,
+  "n_controls": 150,
+  "control_labels": {
+    "A": 50,
+    "B": 50,
+    "C": 50
+  },
+  "manifest_sha256": "3b3d0740316431aed3f759f5d5cd14c38bb99d00d36e68e80d10a99af4e42513",
+  "files": {
+    "datasets/calibration_controls.jsonl": "f74db88f8d763c63c2a6833e58d2661f517c47712f3b65b3d0666bffb29762e2",
+    "datasets/calibration_questions.jsonl": "9653b369e28c435efdbd823b4794a51c350187fc73f55cc8b42744398613bf73",
+    "datasets/main_questions.jsonl": "22b3f3f6f154876b8c740dd64d4dd8e5031b90cccffc584e27d8c8f1e9c73e81",
+    "datasets/simple_qa_test_set.csv": "feee3f7e7db3617e94e8fcf1977b756ec420ef8568f4e0fcbbe0e92e9d5fc032"
+  }
+}

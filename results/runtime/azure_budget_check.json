@@ -1,0 +1,19 @@
+{
+  "campaign": "open-weight-scorecards",
+  "daily_cap_usd": 50,
+  "job_cap_usd": 12,
+  "headroom_usd": null,
+  "status": "deferred_headroom_unverified",
+  "calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "spend_usd": 0,
+  "searched": [
+    "campaign yaml",
+    "safety_kb/runs",
+    "safety_kb/results",
+    "safety_runs",
+    "safety source budget/ledger references"
+  ],
+  "note": "Cap configuration is not a spend ledger. No paid probe made."
+}

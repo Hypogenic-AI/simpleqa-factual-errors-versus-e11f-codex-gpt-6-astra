@@ -1,0 +1,571 @@
+{
+  "version": 2,
+  "status": "success",
+  "eval": {
+    "eval_id": "iekUKsGMivo24pdkpmSyBA",
+    "run_id": "BfvtK58SxFX8aLU763Cbqj",
+    "created": "2026-10-20T11:16:26+00:00",
+    "task": "software_replay_fixture",
+    "task_id": "dp7TsD9DqLoXz8FvkGr9GH",
+    "task_version": 0,
+    "task_display_name": "software_replay_fixture",
+    "task_attribs": {},
+    "task_args": {},
+    "task_args_passed": {},
+    "dataset": {
+      "samples": 1,
+      "sample_ids": [
+        "software-fixture"
+      ],
+      "shuffled": false
+    },
+    "model": "cached-replay/cached-replay/fixture",
+    "model_generate_config": {},
+    "model_args": {},
+    "config": {
+      "epochs": 1,
+      "fail_on_error": true,
+      "continue_on_fail": false,
+      "score_on_error": false,
+      "sandbox_cleanup": true,
+      "sandbox_prebuilt": false,
+      "log_samples": true,
+      "log_realtime": true,
+      "log_images": true,
+      "score_display": true
+    },
+    "revision": {
+      "type": "git",
+      "origin": "https://github.com/Hypogenic-AI/simpleqa-factual-errors-versus-e11f-codex-gpt-6-astra.git",
+      "commit": "1f6d822",
+      "dirty": true
+    },
+    "packages": {
+      "inspect_ai": "0.3.282"
+    },
+    "scorers": [
+      {
+        "name": "cached_grade",
+        "options": {},
+        "metrics": {
+          "correct": [
+            {
+              "name": "inspect_ai/mean",
+              "options": {}
+            },
+            {
+              "name": "inspect_ai/stderr",
+              "options": {}
+            }
+          ],
+          "incorrect": [
+            {
+              "name": "inspect_ai/mean",
+              "options": {}
+            },
+            {
+              "name": "inspect_ai/stderr",
+              "options": {}
+            }
+          ],
+          "not_attempted": [
+            {
+              "name": "inspect_ai/mean",
+              "options": {}
+            },
+            {
+              "name": "inspect_ai/stderr",
+              "options": {}
+            }
+          ],
+          "unscored": [
+            {
+              "name": "inspect_ai/mean",
+              "options": {}
+            },
+            {
+              "name": "inspect_ai/stderr",
+              "options": {}
+            }
+          ],
+          "truncated": [
+            {
+              "name": "inspect_ai/mean",
+              "options": {}
+            },
+            {
+              "name": "inspect_ai/stderr",
+              "options": {}
+            }
+          ],
+          "infrastructure_failure": [
+            {
+              "name": "inspect_ai/mean",
+              "options": {}
+            },
+            {
+              "name": "inspect_ai/stderr",
+              "options": {}
+            }
+          ]
+        },
+        "metadata": {}
+      }
+    ]
+  },
+  "plan": {
+    "name": "plan",
+    "steps": [
+      {
+        "solver": "replay",
+        "params": {},
+        "params_passed": {}
+      }
+    ],
+    "config": {}
+  },
+  "results": {
+    "total_samples": 1,
+    "completed_samples": 1,
+    "scores": [
+      {
+        "name": "correct",
+        "scorer": "cached_grade",
+        "scored_samples": 1,
+        "unscored_samples": 0,
+        "params": {},
+        "metrics": {
+          "mean": {
+            "name": "mean",
+            "value": 0.0,
+            "params": {}
+          },
+          "stderr": {
+            "name": "stderr",
+            "value": 0,
+            "params": {}
+          }
+        }
+      },
+      {
+        "name": "incorrect",
+        "scorer": "cached_grade",
+        "scored_samples": 1,
+        "unscored_samples": 0,
+        "params": {},
+        "metrics": {
+          "mean": {
+            "name": "mean",
+            "value": 0.0,
+            "params": {}
+          },
+          "stderr": {
+            "name": "stderr",
+            "value": 0,
+            "params": {}
+          }
+        }
+      },
+      {
+        "name": "not_attempted",
+        "scorer": "cached_grade",
+        "scored_samples": 1,
+        "unscored_samples": 0,
+        "params": {},
+        "metrics": {
+          "mean": {
+            "name": "mean",
+            "value": 0.0,
+            "params": {}
+          },
+          "stderr": {
+            "name": "stderr",
+            "value": 0,
+            "params": {}
+          }
+        }
+      },
+      {
+        "name": "unscored",
+        "scorer": "cached_grade",
+        "scored_samples": 1,
+        "unscored_samples": 0,
+        "params": {},
+        "metrics": {
+          "mean": {
+            "name": "mean",
+            "value": 1.0,
+            "params": {}
+          },
+          "stderr": {
+            "name": "stderr",
+            "value": 0,
+            "params": {}
+          }
+        }
+      },
+      {
+        "name": "truncated",
+        "scorer": "cached_grade",
+        "scored_samples": 1,
+        "unscored_samples": 0,
+        "params": {},
+        "metrics": {
+          "mean": {
+            "name": "mean",
+            "value": 0.0,
+            "params": {}
+          },
+          "stderr": {
+            "name": "stderr",
+            "value": 0,
+            "params": {}
+          }
+        }
+      },
+      {
+        "name": "infrastructure_failure",
+        "scorer": "cached_grade",
+        "scored_samples": 1,
+        "unscored_samples": 0,
+        "params": {},
+        "metrics": {
+          "mean": {
+            "name": "mean",
+            "value": 0.0,
+            "params": {}
+          },
+          "stderr": {
+            "name": "stderr",
+            "value": 0,
+            "params": {}
+          }
+        }
+      }
+    ],
+    "headline": {
+      "scorer": "cached_grade",
+      "score": "correct",
+      "metric": "mean"
+    }
+  },
+  "stats": {
+    "started_at": "2026-10-20T11:16:27+00:00",
+    "completed_at": "2026-10-20T11:16:27+00:00",
+    "model_usage": {},
+    "role_usage": {},
+    "connection_limit_history": []
+  },
+  "invalidated": false,
+  "tags": [],
+  "metadata": {},
+  "samples": [
+    {
+      "id": "software-fixture",
+      "epoch": 1,
+      "input": "Replay plumbing test",
+      "target": "",
+      "messages": [
+        {
+          "id": "dCjtN8vK9XufhPyZmzTREN",
+          "content": "Replay plumbing test",
+          "source": "input",
+          "role": "user"
+        }
+      ],
+      "output": {
+        "model": "cached-replay/fixture",
+        "choices": [
+          {
+            "message": {
+              "id": "TjoEvvrVttUNLMpcYkUJfw",
+              "content": "cached fixture; no inference",
+              "source": "generate",
+              "role": "assistant",
+              "model": "cached-replay/fixture"
+            },
+            "stop_reason": "stop"
+          }
+        ],
+        "completion": "cached fixture; no inference"
+      },
+      "scores": {
+        "cached_grade": {
+          "value": {
+            "correct": 0,
+            "incorrect": 0,
+            "not_attempted": 0,
+            "unscored": 1,
+            "truncated": 0,
+            "infrastructure_failure": 0
+          },
+          "answer": "UNSCORED",
+          "explanation": "Cached fixed-rubric local grade; synthetic-control calibration reported separately. Replay does not call models.",
+          "metadata": {
+            "original_id": "software-fixture",
+            "condition": "fixture",
+            "seed": 0,
+            "judge": "qwen2.5-7b-judge",
+            "post_hoc_replay": true
+          },
+          "history": []
+        }
+      },
+      "metadata": {
+        "id": "software-fixture",
+        "condition": "fixture",
+        "seed": 0,
+        "grade": null,
+        "final_answer": "cached fixture; no inference"
+      },
+      "store": {},
+      "events": [
+        {
+          "uuid": "Xdbc9yWVjNhy7oWeQ6aDt2",
+          "span_id": "YXb28enah7YcW62JKtHbMN",
+          "timestamp": "2026-10-20T11:16:27.879792+00:00",
+          "working_start": 5360097.220744011,
+          "event": "span_begin",
+          "id": "YXb28enah7YcW62JKtHbMN",
+          "type": "init",
+          "name": "init"
+        },
+        {
+          "uuid": "268TW7A7ZAoktznD6LKNtX",
+          "span_id": "YXb28enah7YcW62JKtHbMN",
+          "timestamp": "2026-10-20T11:16:27.884737+00:00",
+          "working_start": 5360097.225691259,
+          "event": "sample_init",
+          "sample": {
+            "input": "Replay plumbing test",
+            "target": "",
+            "id": "software-fixture",
+            "metadata": {
+              "id": "software-fixture",
+              "condition": "fixture",
+              "seed": 0,
+              "grade": null,
+              "final_answer": "cached fixture; no inference"
+            }
+          },
+          "state": {
+            "messages": [
+              {
+                "id": "dCjtN8vK9XufhPyZmzTREN",
+                "content": "Replay plumbing test",
+                "source": "input",
+                "role": "user"
+              }
+            ],
+            "tools": [],
+            "tool_choice": null,
+            "store": {},
+            "output": {
+              "model": "cached-replay/cached-replay/fixture",
+              "choices": [],
+              "completion": ""
+            },
+            "completed": false,
+            "metadata": {
+              "id": "software-fixture",
+              "condition": "fixture",
+              "seed": 0,
+              "grade": null,
+              "final_answer": "cached fixture; no inference"
+            }
+          }
+        },
+        {
+          "uuid": "Ug4mPrEsv4N7YuWncoC889",
+          "span_id": "YXb28enah7YcW62JKtHbMN",
+          "timestamp": "2026-10-20T11:16:27.886570+00:00",
+          "working_start": 5360097.227520471,
+          "event": "span_end",
+          "id": "YXb28enah7YcW62JKtHbMN"
+        },
+        {
+          "uuid": "PqGKHxKKeu8a6a3ZhcToom",
+          "span_id": "GGGdapN9zQZvkU3gVxiC4B",
+          "timestamp": "2026-10-20T11:16:27.890509+00:00",
+          "working_start": 0.002265799790620804,
+          "event": "span_begin",
+          "id": "GGGdapN9zQZvkU3gVxiC4B",
+          "type": "solvers",
+          "name": "solvers"
+        },
+        {
+          "uuid": "ncr7aZCbRQ68BzLytKr8SF",
+          "span_id": "jF3iwVtJQGMVhLufwpBhX2",
+          "timestamp": "2026-10-20T11:16:27.897895+00:00",
+          "working_start": 0.009654039517045021,
+          "event": "span_begin",
+          "id": "jF3iwVtJQGMVhLufwpBhX2",
+          "parent_id": "GGGdapN9zQZvkU3gVxiC4B",
+          "type": "solver",
+          "name": "replay"
+        },
+        {
+          "uuid": "7dStp5kynBVgYeq4pzqzr9",
+          "span_id": "jF3iwVtJQGMVhLufwpBhX2",
+          "timestamp": "2026-10-20T11:16:27.899718+00:00",
+          "working_start": 0.011472822166979313,
+          "event": "state",
+          "changes": [
+            {
+              "op": "replace",
+              "path": "/output/model",
+              "value": "cached-replay/fixture",
+              "replaced": "cached-replay/cached-replay/fixture"
+            },
+            {
+              "op": "add",
+              "path": "/output/choices/0",
+              "value": {
+                "message": {
+                  "id": "TjoEvvrVttUNLMpcYkUJfw",
+                  "content": "cached fixture; no inference",
+                  "source": "generate",
+                  "role": "assistant",
+                  "model": "cached-replay/fixture"
+                },
+                "stop_reason": "stop"
+              }
+            },
+            {
+              "op": "replace",
+              "path": "/output/completion",
+              "value": "cached fixture; no inference",
+              "replaced": ""
+            }
+          ]
+        },
+        {
+          "uuid": "GAaGUWAC7igBHaK9769CeH",
+          "span_id": "jF3iwVtJQGMVhLufwpBhX2",
+          "timestamp": "2026-10-20T11:16:27.901361+00:00",
+          "working_start": 0.01311497762799263,
+          "event": "span_end",
+          "id": "jF3iwVtJQGMVhLufwpBhX2"
+        },
+        {
+          "uuid": "C3YKpGiFyKZfNi6uvLoV2q",
+          "span_id": "GGGdapN9zQZvkU3gVxiC4B",
+          "timestamp": "2026-10-20T11:16:27.902656+00:00",
+          "working_start": 0.014409985393285751,
+          "event": "span_end",
+          "id": "GGGdapN9zQZvkU3gVxiC4B"
+        },
+        {
+          "uuid": "Ej55hUCDgKGqkWjhgLthip",
+          "span_id": "NXSkdARanqhmNtyYN2wCRD",
+          "timestamp": "2026-10-20T11:16:27.904559+00:00",
+          "working_start": 0.01631269697099924,
+          "event": "span_begin",
+          "id": "NXSkdARanqhmNtyYN2wCRD",
+          "type": "scorers",
+          "name": "scorers"
+        },
+        {
+          "uuid": "nmJswUkALicCCtQULiBiEi",
+          "span_id": "2tARcTm3jahJWc7FQLLKJH",
+          "timestamp": "2026-10-20T11:16:27.906018+00:00",
+          "working_start": 0.017771764658391476,
+          "event": "span_begin",
+          "id": "2tARcTm3jahJWc7FQLLKJH",
+          "parent_id": "NXSkdARanqhmNtyYN2wCRD",
+          "type": "scorer",
+          "name": "cached_grade"
+        },
+        {
+          "uuid": "NcX9kez2Jvpp6TE8GuCwP6",
+          "span_id": "2tARcTm3jahJWc7FQLLKJH",
+          "timestamp": "2026-10-20T11:16:27.907297+00:00",
+          "working_start": 0.019050481729209423,
+          "event": "score",
+          "score": {
+            "value": {
+              "correct": 0,
+              "incorrect": 0,
+              "not_attempted": 0,
+              "unscored": 1,
+              "truncated": 0,
+              "infrastructure_failure": 0
+            },
+            "answer": "UNSCORED",
+            "explanation": "Cached fixed-rubric local grade; synthetic-control calibration reported separately. Replay does not call models.",
+            "metadata": {
+              "original_id": "software-fixture",
+              "condition": "fixture",
+              "seed": 0,
+              "judge": "qwen2.5-7b-judge",
+              "post_hoc_replay": true
+            },
+            "history": []
+          },
+          "target": "",
+          "intermediate": false,
+          "scorer": "cached_grade",
+          "scorer_args": {}
+        },
+        {
+          "uuid": "emPEoz2Aeh2nwo8P3z9JUS",
+          "span_id": "2tARcTm3jahJWc7FQLLKJH",
+          "timestamp": "2026-10-20T11:16:27.908831+00:00",
+          "working_start": 0.020585114136338234,
+          "event": "span_end",
+          "id": "2tARcTm3jahJWc7FQLLKJH"
+        },
+        {
+          "uuid": "jZbxuhLBgMzNEsoRxSwa9R",
+          "span_id": "NXSkdARanqhmNtyYN2wCRD",
+          "timestamp": "2026-10-20T11:16:27.910005+00:00",
+          "working_start": 0.02175904158502817,
+          "event": "span_end",
+          "id": "NXSkdARanqhmNtyYN2wCRD"
+        }
+      ],
+      "model_usage": {},
+      "role_usage": {},
+      "started_at": "2026-10-20T11:16:27.888253+00:00",
+      "completed_at": "2026-10-20T11:16:27.911443+00:00",
+      "total_time": 0.023,
+      "working_time": 0.023,
+      "uuid": "hAU5WsVBV6d2N7mt6KMsBD",
+      "error_retries": [],
+      "attachments": {},
+      "events_data": {
+        "messages": [],
+        "calls": []
+      },
+      "turn_count": 0
+    }
+  ],
+  "reductions": [
+    {
+      "scorer": "cached_grade",
+      "samples": [
+        {
+          "value": {
+            "correct": 0.0,
+            "incorrect": 0.0,
+            "not_attempted": 0.0,
+            "unscored": 1.0,
+            "truncated": 0.0,
+            "infrastructure_failure": 0.0
+          },
+          "answer": "UNSCORED",
+          "explanation": "Cached fixed-rubric local grade; synthetic-control calibration reported separately. Replay does not call models.",
+          "metadata": {
+            "original_id": "software-fixture",
+            "condition": "fixture",
+            "seed": 0,
+            "judge": "qwen2.5-7b-judge",
+            "post_hoc_replay": true
+          },
+          "history": [],
+          "sample_id": "software-fixture"
+        }
+      ]
+    }
+  ]
+}

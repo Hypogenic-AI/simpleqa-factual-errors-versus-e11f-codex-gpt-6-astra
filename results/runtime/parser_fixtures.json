@@ -1,0 +1,5 @@
+{
+  "parser_fixtures": "passed",
+  "cases": 10,
+  "synthetic_software_checks_not_judge_calibration": true
+}

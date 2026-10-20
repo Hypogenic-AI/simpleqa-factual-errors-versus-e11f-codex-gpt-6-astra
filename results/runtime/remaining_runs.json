@@ -1,0 +1,44 @@
+[
+  {
+    "model": "deepseek-r1-distill-llama-8b",
+    "command": [
+      "/net/spaces/chenhao/chai-lab-models/haokunliu/safety/workspaces/simpleqa-factual-errors-versus-e11f-codex-gpt-6-astra/.venv/bin/python",
+      "src/run_model.py",
+      "deepseek-r1-distill-llama-8b",
+      "--deadline",
+      "1792496728.0"
+    ],
+    "returncode": 0,
+    "started": 1792495147.4383228,
+    "finished": 1792496066.562205,
+    "duration_s": 919.1238830089569
+  },
+  {
+    "model": "moonlight-16b-a3b-instruct",
+    "command": [
+      "/net/spaces/chenhao/chai-lab-models/haokunliu/safety/workspaces/simpleqa-factual-errors-versus-e11f-codex-gpt-6-astra/.venv/bin/python",
+      "src/run_model.py",
+      "moonlight-16b-a3b-instruct",
+      "--deadline",
+      "1792497088.0"
+    ],
+    "returncode": 0,
+    "started": 1792496066.5647051,
+    "finished": 1792496467.3873155,
+    "duration_s": 400.82261085510254
+  },
+  {
+    "model": "qwen2.5-7b-judge",
+    "command": [
+      "/net/spaces/chenhao/chai-lab-models/haokunliu/safety/workspaces/simpleqa-factual-errors-versus-e11f-codex-gpt-6-astra/.venv/bin/python",
+      "src/run_model.py",
+      "qwen2.5-7b-judge",
+      "--deadline",
+      "1792497448.0"
+    ],
+    "returncode": 0,
+    "started": 1792496467.3906105,
+    "finished": 1792496607.3438866,
+    "duration_s": 139.9532768726349
+  }
+]

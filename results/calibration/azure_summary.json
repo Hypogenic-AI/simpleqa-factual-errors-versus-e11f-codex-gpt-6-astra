@@ -1,0 +1,20 @@
+{
+  "judge": "azure-gpt-4.1-mini-judge",
+  "deployment": "gpt-4.1-mini",
+  "returned_version": null,
+  "status": "deferred_headroom_unverified",
+  "n_controls_planned": 150,
+  "n_controls_scored": 0,
+  "n_question_clusters_scored": 0,
+  "confusion_matrix": null,
+  "accuracy": null,
+  "macro_f1": null,
+  "kappa": null,
+  "correct_false_positive_rate": null,
+  "eligible": null,
+  "calls": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "spend_usd": 0,
+  "reason": "Campaign daily cap is configured at $50, but no authoritative current spend/headroom ledger was found; paid calls were not made. This is not a failed calibration result."
+}

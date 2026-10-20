@@ -1,0 +1,16 @@
+{
+  "url": "https://api.github.com/repos/facebookresearch/AbstentionBench/git/trees/main?recursive=1",
+  "commit": "e29184174c69bc95139b8c33dcca09aacab9442a",
+  "matching_paths": [
+    "configs/abstention_detector/llm_judge_gemini.yaml",
+    "configs/abstention_detector/llm_judge_gpt4o.yaml",
+    "configs/abstention_detector/llm_judge_llama_3_1_8B_instruct.yaml",
+    "configs/abstention_detector/llm_judge_llama_3_3_70B_instruct.yaml",
+    "configs/abstention_detector_with_reasoning/llm_judge_llama_3_1_8B_instruct_with_reasoning.yaml",
+    "configs/correctness_evaluator/llm_correctness_judge_gemini.yaml",
+    "configs/correctness_evaluator/llm_correctness_judge_gpt4o.yaml",
+    "configs/correctness_evaluator/llm_correctness_judge_llama_3_1_8B_instruct.yaml",
+    "configs/correctness_evaluator/llm_correctness_judge_llama_3_3_70B_instruct.yaml",
+    "recipe/evaluation_judge_prompts.py"
+  ]
+}

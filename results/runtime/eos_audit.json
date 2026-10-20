@@ -1,0 +1,37 @@
+{
+  "models": {
+    "qwen3-8b": {
+      "primary_eos_token_id": 151645,
+      "all_generation_eos_ids": [
+        151643,
+        151645
+      ]
+    },
+    "deepseek-r1-distill-llama-8b": {
+      "primary_eos_token_id": 128001,
+      "all_generation_eos_ids": [
+        128001
+      ]
+    },
+    "moonlight-16b-a3b-instruct": {
+      "primary_eos_token_id": 163586,
+      "all_generation_eos_ids": [
+        163586
+      ]
+    },
+    "qwen2.5-7b-judge": {
+      "primary_eos_token_id": 151645,
+      "all_generation_eos_ids": [
+        151643,
+        151645
+      ]
+    }
+  },
+  "implementation": "vLLM 0.11.0 ModelConfig.try_get_generation_config loads EOS fields even when generation_config=vllm; V1 processor applies SamplingParams.update_from_generation_config, adding alternate EOS to stop_token_ids.",
+  "source_files": [
+    "vllm/config/model.py:1315",
+    "vllm/v1/engine/processor.py:416",
+    "vllm/sampling_params.py:460"
+  ],
+  "finding": "No missing alternate-EOS configuration found; no regrading performed."
+}

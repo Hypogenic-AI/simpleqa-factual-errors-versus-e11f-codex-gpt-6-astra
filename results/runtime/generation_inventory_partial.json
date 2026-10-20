@@ -1,0 +1,18 @@
+{
+  "qwen3-8b": {
+    "n_completions": 2400,
+    "n_items": 400,
+    "invalid": 0,
+    "truncated": 55,
+    "input_tokens": 100395,
+    "output_tokens": 120777
+  },
+  "deepseek-r1-distill-llama-8b": {
+    "n_completions": 2400,
+    "n_items": 400,
+    "invalid": 5,
+    "truncated": 19,
+    "input_tokens": 83811,
+    "output_tokens": 1757421
+  }
+}

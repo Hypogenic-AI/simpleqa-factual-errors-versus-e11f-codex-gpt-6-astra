@@ -1,0 +1,12 @@
+[
+  {
+    "path": "code/simple-evals",
+    "commit": "652c89d0ca9df547706735883097e9537d40dc47",
+    "url": "https://github.com/openai/simple-evals.git"
+  },
+  {
+    "path": "code/inspect_evals",
+    "commit": "8ef810f09930362302fc59b10a382d96dd767171",
+    "url": "https://github.com/UKGovernmentBEIS/inspect_evals.git"
+  }
+]

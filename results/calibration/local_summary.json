@@ -1,0 +1,72 @@
+{
+  "status": "complete",
+  "n_controls": 150,
+  "n_question_clusters": 50,
+  "label_provenance": "synthetic gold/negation/abstention, not human completion labels",
+  "confusion_matrix": [
+    [
+      50,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      50,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      50,
+      0
+    ]
+  ],
+  "rows": "true A,B,C",
+  "columns": "predicted A,B,C,unscored",
+  "unscored": 0,
+  "metrics": {
+    "accuracy": {
+      "n": 150,
+      "n_clusters": 50,
+      "mean": 1.0,
+      "se": 0.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "macro_f1": {
+      "n": 150,
+      "n_clusters": 50,
+      "mean": 1.0,
+      "se": 0.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "kappa": {
+      "n": 150,
+      "n_clusters": 50,
+      "mean": 1.0,
+      "se": 0.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "correct_false_positive_rate": {
+      "n": 100,
+      "n_clusters": 50,
+      "mean": 0.0,
+      "se": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "eligible": true
+}

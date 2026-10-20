@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "tests": [
+    "perfect three-class controls",
+    "paired constant difference",
+    "zero-variance direction test"
+  ],
+  "note": "software fixtures only; not empirical model/judge measurements"
+}

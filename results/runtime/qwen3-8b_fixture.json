@@ -1,0 +1,17 @@
+{
+  "text": "2 + 2 equals 4.",
+  "token_ids": [
+    17,
+    488,
+    220,
+    17,
+    16819,
+    220,
+    19,
+    13,
+    151645
+  ],
+  "model": "qwen3-8b",
+  "native_boundary_ids": [],
+  "fixture_only": true
+}

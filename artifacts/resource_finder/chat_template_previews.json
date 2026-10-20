@@ -1,0 +1,6 @@
+{
+  "moonlight-16b-a3b-instruct": "<|im_system|>system<|im_middle|>You are a helpful assistant<|im_end|><|im_user|>user<|im_middle|>Who received the IEEE Frank Rosenblatt Award in 2010?<|im_end|><|im_assistant|>assistant<|im_middle|>",
+  "deepseek-r1-distill-llama-8b": "<｜begin▁of▁sentence｜><｜User｜>Who received the IEEE Frank Rosenblatt Award in 2010?<｜Assistant｜><think>\n",
+  "qwen3-8b": "<|im_start|>user\nWho received the IEEE Frank Rosenblatt Award in 2010?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "qwen2.5-7b-judge": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nWho received the IEEE Frank Rosenblatt Award in 2010?<|im_end|>\n<|im_start|>assistant\n"
+}

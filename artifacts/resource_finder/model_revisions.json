@@ -1,0 +1,106 @@
+[
+  {
+    "id": "qwen2.5-7b-judge",
+    "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "files": [
+      {
+        "file": "artifacts/resource_finder/models/qwen2.5-7b-judge/README.md",
+        "sha256": "f366f33bbf6bcadbb7d87f0a21a7b65584a56b8d58b0743c77c88bee625b93a6"
+      },
+      {
+        "file": "artifacts/resource_finder/models/qwen2.5-7b-judge/config.json",
+        "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c"
+      },
+      {
+        "file": "artifacts/resource_finder/models/qwen2.5-7b-judge/tokenizer_config.json",
+        "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+      },
+      {
+        "file": "artifacts/resource_finder/models/qwen2.5-7b-judge/generation_config.json",
+        "sha256": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f"
+      }
+    ],
+    "weights_downloaded": false,
+    "gated": false,
+    "license": "apache-2.0"
+  },
+  {
+    "id": "qwen3-8b",
+    "hf_id": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "files": [
+      {
+        "file": "artifacts/resource_finder/models/qwen3-8b/README.md",
+        "sha256": "0f36caaff9c2516411a7738db384606263ba653c1e63e61d72f511606164d5a6"
+      },
+      {
+        "file": "artifacts/resource_finder/models/qwen3-8b/config.json",
+        "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30"
+      },
+      {
+        "file": "artifacts/resource_finder/models/qwen3-8b/tokenizer_config.json",
+        "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+      },
+      {
+        "file": "artifacts/resource_finder/models/qwen3-8b/generation_config.json",
+        "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+      }
+    ],
+    "weights_downloaded": false,
+    "gated": false,
+    "license": "apache-2.0"
+  },
+  {
+    "id": "moonlight-16b-a3b-instruct",
+    "hf_id": "moonshotai/Moonlight-16B-A3B-Instruct",
+    "revision": "4e735b07a89f73647dfab71ab91b840f362ede5b",
+    "files": [
+      {
+        "file": "artifacts/resource_finder/models/moonlight-16b-a3b-instruct/README.md",
+        "sha256": "4d74df70b1d105726ff2a6944fce443a8aee57671c5edaf1af5870a37d11c91b"
+      },
+      {
+        "file": "artifacts/resource_finder/models/moonlight-16b-a3b-instruct/config.json",
+        "sha256": "6827d4b5327a446d6a80716a6e5cec695f279b282110ef7dae09241656430302"
+      },
+      {
+        "file": "artifacts/resource_finder/models/moonlight-16b-a3b-instruct/tokenizer_config.json",
+        "sha256": "566eff6d3b862587c620edb402dc76417c582605c79e2c9a4bca333a73f44fcb"
+      },
+      {
+        "file": "artifacts/resource_finder/models/moonlight-16b-a3b-instruct/generation_config.json",
+        "sha256": "0294fc712bd5c3a568d113f1faaec2a2dbe4a29d490eeb841b4fb485532690af"
+      }
+    ],
+    "weights_downloaded": false,
+    "gated": false,
+    "license": "mit"
+  },
+  {
+    "id": "deepseek-r1-distill-llama-8b",
+    "hf_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+    "revision": "6a6f4aa4197940add57724a7707d069478df56b1",
+    "files": [
+      {
+        "file": "artifacts/resource_finder/models/deepseek-r1-distill-llama-8b/README.md",
+        "sha256": "d26d26ddb518fee60c6c6bf7a708bd751b1619d93a4944f188143693d956c77f"
+      },
+      {
+        "file": "artifacts/resource_finder/models/deepseek-r1-distill-llama-8b/config.json",
+        "sha256": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd"
+      },
+      {
+        "file": "artifacts/resource_finder/models/deepseek-r1-distill-llama-8b/tokenizer_config.json",
+        "sha256": "8ac8c85fb242563c2260baec0909debd69d718af6a0b3d90e6cab62b4d341cd5"
+      },
+      {
+        "file": "artifacts/resource_finder/models/deepseek-r1-distill-llama-8b/generation_config.json",
+        "sha256": "cd5194726d1e8f7361a8c8425fc11d33ade5e69de1fd7615eb23fae5601af68b"
+      }
+    ],
+    "weights_downloaded": false,
+    "gated": false,
+    "license": "mit"
+  }
+]

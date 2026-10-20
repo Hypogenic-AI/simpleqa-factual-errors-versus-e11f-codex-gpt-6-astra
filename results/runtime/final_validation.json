@@ -1,0 +1,27 @@
+{
+  "artifact_validation": "passed",
+  "full_dual_judge_protocol": "incomplete",
+  "candidate_findings": 0,
+  "checks": {
+    "qwen3-8b": {
+      "raw": 2400,
+      "planned_score_rows": 2400,
+      "graded": 2213,
+      "token_limits_and_hashes": "passed"
+    },
+    "deepseek-r1-distill-llama-8b": {
+      "raw": 2400,
+      "planned_score_rows": 2400,
+      "graded": 2322,
+      "token_limits_and_hashes": "passed"
+    },
+    "moonlight-16b-a3b-instruct": {
+      "raw": 2400,
+      "planned_score_rows": 2400,
+      "graded": 2288,
+      "token_limits_and_hashes": "passed"
+    }
+  },
+  "dataset_disjointness": "passed",
+  "azure_spend_usd": 0
+}

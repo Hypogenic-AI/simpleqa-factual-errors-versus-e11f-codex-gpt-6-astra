@@ -1,0 +1,15 @@
+{
+  "source": "https://openaipublic.blob.core.windows.net/simple-evals/simple_qa_test_set.csv",
+  "sha256": "feee3f7e7db3617e94e8fcf1977b756ec420ef8568f4e0fcbbe0e92e9d5fc032",
+  "bytes": 2012910,
+  "rows": 4326,
+  "columns": [
+    "metadata",
+    "problem",
+    "answer"
+  ],
+  "empty_questions": 0,
+  "empty_answers": 0,
+  "unique_questions": 4326,
+  "unique_qa_pairs": 4326
+}

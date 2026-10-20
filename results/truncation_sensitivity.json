@@ -1,0 +1,152 @@
+{
+  "qwen3-8b": {
+    "exploratory": true,
+    "definition": "Treat both unscored and truncated finals as unknown, adversarially by condition",
+    "bounds": {
+      "correct": {
+        "minimum_effect": {
+          "n": 400,
+          "mean": -0.12166666666666666,
+          "se": 0.012837208780245548,
+          "ci95": [
+            -0.1475,
+            -0.09666666666666666
+          ],
+          "lower95_one_sided": -0.1433333333333333
+        },
+        "maximum_effect": {
+          "n": 400,
+          "mean": 0.07250000000000001,
+          "se": 0.01552204664509011,
+          "ci95": [
+            0.04333333333333334,
+            0.10416666666666669
+          ],
+          "lower95_one_sided": 0.0475
+        }
+      },
+      "incorrect": {
+        "minimum_effect": {
+          "n": 400,
+          "mean": -0.9291666666666667,
+          "se": 0.011346836395441097,
+          "ci95": [
+            -0.95,
+            -0.9058333333333333
+          ],
+          "lower95_one_sided": -0.9475
+        },
+        "maximum_effect": {
+          "n": 400,
+          "mean": -0.735,
+          "se": 0.021519647722377754,
+          "ci95": [
+            -0.7758541666666667,
+            -0.6916666666666668
+          ],
+          "lower95_one_sided": -0.7691666666666667
+        }
+      }
+    }
+  },
+  "deepseek-r1-distill-llama-8b": {
+    "exploratory": true,
+    "definition": "Treat both unscored and truncated finals as unknown, adversarially by condition",
+    "bounds": {
+      "correct": {
+        "minimum_effect": {
+          "n": 400,
+          "mean": -0.04333333333333333,
+          "se": 0.007882102579572881,
+          "ci95": [
+            -0.05916666666666666,
+            -0.028333333333333332
+          ],
+          "lower95_one_sided": -0.056666666666666664
+        },
+        "maximum_effect": {
+          "n": 400,
+          "mean": 0.03333333333333333,
+          "se": 0.008259910463055868,
+          "ci95": [
+            0.0175,
+            0.05
+          ],
+          "lower95_one_sided": 0.02
+        }
+      },
+      "incorrect": {
+        "minimum_effect": {
+          "n": 400,
+          "mean": -0.0825,
+          "se": 0.010958565414570427,
+          "ci95": [
+            -0.105,
+            -0.06166666666666666
+          ],
+          "lower95_one_sided": -0.10083333333333334
+        },
+        "maximum_effect": {
+          "n": 400,
+          "mean": -0.0058333333333333405,
+          "se": 0.01064860822562541,
+          "ci95": [
+            -0.0275,
+            0.014187499999999697
+          ],
+          "lower95_one_sided": -0.023333333333333338
+        }
+      }
+    }
+  },
+  "moonlight-16b-a3b-instruct": {
+    "exploratory": true,
+    "definition": "Treat both unscored and truncated finals as unknown, adversarially by condition",
+    "bounds": {
+      "correct": {
+        "minimum_effect": {
+          "n": 400,
+          "mean": -0.05333333333333333,
+          "se": 0.008580706016044302,
+          "ci95": [
+            -0.07083333333333333,
+            -0.0375
+          ],
+          "lower95_one_sided": -0.0675
+        },
+        "maximum_effect": {
+          "n": 400,
+          "mean": 0.04083333333333334,
+          "se": 0.016414073791566074,
+          "ci95": [
+            0.010000000000000002,
+            0.07333333333333333
+          ],
+          "lower95_one_sided": 0.01416666666666667
+        }
+      },
+      "incorrect": {
+        "minimum_effect": {
+          "n": 400,
+          "mean": -0.935,
+          "se": 0.009170178563236845,
+          "ci95": [
+            -0.9525,
+            -0.9158333333333334
+          ],
+          "lower95_one_sided": -0.95
+        },
+        "maximum_effect": {
+          "n": 400,
+          "mean": -0.8408333333333334,
+          "se": 0.016515553456883915,
+          "ci95": [
+            -0.8725,
+            -0.8083333333333332
+          ],
+          "lower95_one_sided": -0.8675
+        }
+      }
+    }
+  }
+}

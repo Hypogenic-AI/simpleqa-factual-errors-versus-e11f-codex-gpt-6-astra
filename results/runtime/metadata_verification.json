@@ -1,0 +1,62 @@
+[
+  {
+    "file": "models/qwen2.5-7b-judge/config.json",
+    "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+    "matches_pin": true
+  },
+  {
+    "file": "models/qwen2.5-7b-judge/tokenizer_config.json",
+    "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+    "matches_pin": true
+  },
+  {
+    "file": "models/qwen2.5-7b-judge/generation_config.json",
+    "sha256": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f",
+    "matches_pin": true
+  },
+  {
+    "file": "models/qwen3-8b/config.json",
+    "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+    "matches_pin": true
+  },
+  {
+    "file": "models/qwen3-8b/tokenizer_config.json",
+    "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "matches_pin": true
+  },
+  {
+    "file": "models/qwen3-8b/generation_config.json",
+    "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "matches_pin": true
+  },
+  {
+    "file": "models/moonlight-16b-a3b-instruct/config.json",
+    "sha256": "6827d4b5327a446d6a80716a6e5cec695f279b282110ef7dae09241656430302",
+    "matches_pin": true
+  },
+  {
+    "file": "models/moonlight-16b-a3b-instruct/tokenizer_config.json",
+    "sha256": "566eff6d3b862587c620edb402dc76417c582605c79e2c9a4bca333a73f44fcb",
+    "matches_pin": true
+  },
+  {
+    "file": "models/moonlight-16b-a3b-instruct/generation_config.json",
+    "sha256": "0294fc712bd5c3a568d113f1faaec2a2dbe4a29d490eeb841b4fb485532690af",
+    "matches_pin": true
+  },
+  {
+    "file": "models/deepseek-r1-distill-llama-8b/config.json",
+    "sha256": "54acfad3cffe057640904ca8a1e83525e6551c70c7a04c641f5a9eda0bbf64bd",
+    "matches_pin": true
+  },
+  {
+    "file": "models/deepseek-r1-distill-llama-8b/tokenizer_config.json",
+    "sha256": "8ac8c85fb242563c2260baec0909debd69d718af6a0b3d90e6cab62b4d341cd5",
+    "matches_pin": true
+  },
+  {
+    "file": "models/deepseek-r1-distill-llama-8b/generation_config.json",
+    "sha256": "cd5194726d1e8f7361a8c8425fc11d33ade5e69de1fd7615eb23fae5601af68b",
+    "matches_pin": true
+  }
+]

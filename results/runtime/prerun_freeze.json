@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-10-20T11:12:22Z",
+  "main_responses_collected": 0,
+  "files": {
+    "preregistration.md": "06a804de7d6f77b5e834fdc2ab32abec2b640afec6ccf684fad865c10c2050be",
+    "planning.md": "e02c5eb1a8470900ca942885aff1a234954dda9747ec169ed252a6ded0a0d39e",
+    "uv.lock": "fea65336b8bfa9b2fe161c2d0c8db788177730ac5946009dbbe3ac601103af58",
+    "pyproject.toml": "1fd4295bfabbb3c78ffd8aba895dab367407007631a04745ea17320281816b3c",
+    "src/run_model.py": "a69fc1d812c961b01d824159ad6333e2d75a97687a641db2b83d072f47936bc8",
+    "src/protocol.py": "eb2d2951bb7cb19597c95b97a28ba3f0876e1c1899be6f1d56262583d35e676e",
+    "src/analyze.py": "2b32f51a8466a7b18dfdb055e3ab0aa69ba6acb0c994d8cffd665b73444d8090",
+    "artifacts/resource_finder/item_manifest.json": "3b3d0740316431aed3f759f5d5cd14c38bb99d00d36e68e80d10a99af4e42513",
+    "artifacts/resource_finder/grader_prompt.txt": "063c04ea798f91c4706c050b66a721afc77a458b12d8f0d72286d4b0eee8a3ee"
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "qwen2.5-7b-judge",
+    "family": "qwen",
+    "vendor": "Alibaba",
+    "access": "vllm:Qwen/Qwen2.5-7B-Instruct",
+    "params_b": 7,
+    "gpu_memory_gb": 20,
+    "gpu_memory_utilization": 0.42,
+    "max_model_len": 8192,
+    "role": "judge",
+    "license": "Apache-2.0",
+    "notes": "default local judge (no API spend); calibration numbers live in evals/judge-calibration.md"
+  },
+  {
+    "id": "qwen3-8b",
+    "family": "qwen",
+    "vendor": "Alibaba",
+    "access": "vllm:Qwen/Qwen3-8B",
+    "params_b": 8,
+    "gpu_memory_gb": 24,
+    "gpu_memory_utilization": 0.6,
+    "max_model_len": 8192,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "moonlight-16b-a3b-instruct",
+    "family": "kimi",
+    "vendor": "Moonshot AI",
+    "access": "vllm:moonshotai/Moonlight-16B-A3B-Instruct",
+    "params_b": 16,
+    "gpu_memory_gb": 40,
+    "gpu_memory_utilization": 0.7,
+    "max_model_len": 8192,
+    "serve_args": [
+      "--trust-remote-code"
+    ],
+    "license": "MIT",
+    "notes": "smallest Kimi-family text model with open weights"
+  },
+  {
+    "id": "deepseek-r1-distill-llama-8b",
+    "family": "deepseek",
+    "vendor": "DeepSeek",
+    "access": "vllm:deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+    "params_b": 8,
+    "gpu_memory_gb": 24,
+    "gpu_memory_utilization": 0.6,
+    "max_model_len": 8192,
+    "license": "MIT"
+  }
+]

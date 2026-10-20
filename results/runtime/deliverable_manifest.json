@@ -1,0 +1,38 @@
+{
+  "finished_utc": "2026-10-20T11:57:00Z",
+  "scientific_status": "inconclusive; dual judging incomplete; unscored gate failed",
+  "files": {
+    "REPORT.md": {
+      "bytes": 23538,
+      "sha256": "8312feed36a8670a6d2b9a9c2fb8abdf0b5918d45d50855d23ba3a70a5ca2949"
+    },
+    "README.md": {
+      "bytes": 1858,
+      "sha256": "0b57bcb657e88c71a24c36c485d38899711301ba2b60ca241157c1a0b07657bb"
+    },
+    "results/analysis.json": {
+      "bytes": 95731,
+      "sha256": "988ddec2e3a19696175526398b06917264b99fe3c5d10727bf0817d62713e212"
+    },
+    "results/safety/simpleqa__qwen3-8b.json": {
+      "bytes": 714843,
+      "sha256": "a799cb9e2069dbd0a261a5805b2d7eb486d187399417ab36f7f869daed856233"
+    },
+    "results/safety/simpleqa__deepseek-r1-distill-llama-8b.json": {
+      "bytes": 715058,
+      "sha256": "a9cfd430ffb50d39a2b186334347a643aa0387a7c72a479d6a7ad132da872e2a"
+    },
+    "results/safety/simpleqa__moonlight-16b-a3b-instruct.json": {
+      "bytes": 714395,
+      "sha256": "3676a1cdab4923c0b61b4e0b2938d3159dedfc19df255f8ae8aaaf296da03534"
+    },
+    "results/runtime/final_validation.json": {
+      "bytes": 651,
+      "sha256": "5c9a53fc10a6d011a3b98df7ddde3a4110a92a8680ed519d0909910a7a88dd3e"
+    },
+    "results/runtime/reproduction_validation.json": {
+      "bytes": 353,
+      "sha256": "1eb092a9ab1d98248c37b8218996e35360724b82c95a9b32a26170eff7b02098"
+    }
+  }
+}
